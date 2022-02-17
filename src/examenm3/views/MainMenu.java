@@ -4,6 +4,8 @@
  */
 package examenm3.views;
 
+import examenm3.views.viewsElement.Option;
+import examenm3.views.viewsElement.Menu;
 import java.util.ArrayList;
 
 

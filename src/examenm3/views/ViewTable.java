@@ -4,12 +4,12 @@
  */
 package examenm3.views;
 
-import examenm3.views.viewsElement.Menu;
+import examenm3.views.viewsElement.Table;
 
 /**
  *
  * @author roger
  */
-public interface ViewMenu {
-    public Menu build();
+public interface ViewTable {
+    public Table build();
 }

@@ -4,16 +4,12 @@
  */
 package examenm3.model;
 
-import examenm3.model.repository.xml.ImplementEstatesDAO;
 import java.util.ArrayList;
 
 /**
  *
  * @author roger
  */
-public class Model {
-    public ArrayList<Estate> getEstates(){
-        EstatesDAO estates = new ImplementEstatesDAO();
-        return estates.read();
-    }
+public interface EstatesDAO {
+    public ArrayList<Estate> read();
 }
