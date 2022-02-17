@@ -8,13 +8,13 @@ package examenm3;
  *
  * @author roger
  */
-public class ExamenM3 {
+public class App {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("hola mundo");
+        
     }
     
 }
